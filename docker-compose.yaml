@@ -10,6 +10,9 @@ networks:
 services:
   api:
     image: lheck/api-produto:v1
+    build: 
+      dockerfile: ./Dockerfile
+      context: ./src
     ports:
       - 8080:8080
     networks:
