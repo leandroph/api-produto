@@ -68,7 +68,7 @@ git clone https://github.com/leandroph/api-produto.git
 <a name="teste-web"></a>
 ### 4. Testar a aplicação:
 
-No navegador acesso pelo link:
-```bash
-http://localhost:8080/api-docs/
-```
+ 1. Utilize o seguinte link no seu navegador:
+ ```bash
+ http://localhost:8080/api-docs/
+ ```
