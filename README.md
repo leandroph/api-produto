@@ -56,7 +56,7 @@ git clone https://github.com/leandroph/api-produto.git
  docker container run -d -p 8080:8080 --network produto_net -e MONGODB_URI=mongodb://mongouser:mongopwd@mongodb:27017/admin lheck/api-produto:v1
  ```
  
- <a name="criar-"><compose/a>
+ <a name="criar-compose"></a>
 ### 3. Criar containers com Docker Compose:
 
  1. No diretório raiz, executar o docker compose:
