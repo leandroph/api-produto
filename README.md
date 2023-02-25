@@ -14,9 +14,10 @@ Para testarmos a aplicação, temos que executar os 4 passos a seguir:
 1. [Fazer download do Projeto](#download-github)
 2. [Criar containers com Docker CLI](#criar-cli)
 3. [Criar containers com Docker Compose](#criar-compose)
+4. [Testar a aplicação](#teste-web)
 
 <a name="download-github"></a>
-### 1. Fazer download do do Projeto:
+### 1. Fazer download do Projeto:
  1. Baixe este Repositório, executando o comando Git:
 ```bash
 git clone https://github.com/leandroph/api-produto.git
@@ -63,3 +64,11 @@ git clone https://github.com/leandroph/api-produto.git
  ```bash
  docker-compose up -d
  ```
+
+<a name="teste-web"></a>
+### 4. Testar a aplicação:
+
+No navegador acesso pelo link:
+```bash
+http://localhost:8080/api-docs/
+```
